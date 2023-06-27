@@ -1,0 +1,159 @@
+@using Microsoft.AspNetCore.Mvc.Routing
+@model IEnumerable<TargetApplications>
+
+@{
+  ViewData["Title"] = "Tanımlı Uygulamalar";
+  ViewData["Auth"] = "Yes";
+}
+
+<head>
+  <title>title</title>
+</head>
+<h2 class="text-center h2">Ana Sayfaya Hoş Geldiniz.</h2>
+<body>
+<div style="max-height: 500px;overflow-y: overlay;">
+  <h4 class="text-center">Target Applications List</h4>
+  <table class="table table-striped table-bordered" >
+    <thead class="h5">
+      <th colspan="3">
+        <tr class="app-list-tr">
+          <th>App ID</th>
+          <th>App Name</th>
+          <th>App URL</th>
+          <th>Time Interval</th>
+        </tr>
+      </th>
+    </thead>
+    <tbody>
+    @{
+      for (int i = 0; i < Model.Count(); i++)
+      {
+        <text>
+          <tr class="app-list-tr">
+            <td>@Model.ElementAt(i).Id</td>
+            <td><input type="text" app-row="@Model.ElementAt(i).AppName" value="@Model.ElementAt(i).AppName" id="name-@Model.ElementAt(i).Id" class="form-control" /></td>
+            <td><input type="text" app-row="@Model.ElementAt(i).AppName" value="@Model.ElementAt(i).AppUrl" id="url-@Model.ElementAt(i).Id" class="url-col form-control" /></td>
+            <td><input type="text" app-row="@Model.ElementAt(i).AppName" value="@Model.ElementAt(i).Interval" id="int-@Model.ElementAt(i).Id" class="form-control" /></td>
+            <td><button type="button" class="btn btn-danger sil-btn" app-id="@Model.ElementAt(i).Id">SİL</button></td>
+            <td><button type="button" class="btn btn-primary updt-btn" app-id="@Model.ElementAt(i).Id">DÜZENLE</button></td>
+          </tr>
+        </text>
+      }
+    }
+    </tbody>
+  </table>
+</div>
+
+<div class="btn-group top-25 d-block container">
+  <button class="btn btn-block btn-secondary" style="width:100%;" onclick="window.location.href = 'https://localhost:44374/Home/AddApplications';">Uygulama Ekle</button>  
+</div>
+
+<script src="../lib/jquery/dist/jquery.js"></script>
+<script src="../lib/sweetalert.min.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded",()=>{
+    let $silBtn = $(".sil-btn");
+    for (let btn of $silBtn)
+    {
+      btn.addEventListener('click', (e)=>{
+            swal({
+              title:"Uygulama Silme",
+              text:"İlgili Uygulama Silinecek?",
+              icon:"warning",
+              buttons:{
+                confirm:{
+                  text:"SİL",
+                  visible:true,
+                  value:true
+                },
+                cancel:{
+                  text:"VAZGEÇ",
+                  visible:true,
+                  value:false
+                }
+              }
+            }).then((ans)=>{
+              if (!ans)
+                return;
+              
+              let id = e.target.getAttribute('app-id');
+              var DeleteData = {Id:parseInt(id)};
+              const settings = {
+                'url':'@Url.Action("DeleteApps")',
+                'method':'delete',        
+                'processData':false,
+                'headers': {
+                    'Content-Type': 'application/json'
+                  },
+                'data':JSON.stringify(DeleteData),
+              };
+              $.ajax(settings).done(()=>{
+                    location.reload();
+                }
+              );
+            });
+          });  
+    }
+    
+    let $updtBtn = $(".updt-btn");
+    for (let btn of $updtBtn)
+    {
+      btn.addEventListener('click', (e)=>{
+            swal({
+              title:"Uygulama Güncelleme",
+              text:"İlgili Uygulama Verileri Güncellenecek!",
+              icon:"info",
+              buttons:{
+                confirm:{
+                  text:"GÜNCELLE",
+                  visible:true,
+                  value:true
+                },
+                cancel:{
+                  text:"VAZGEÇ",
+                  visible:true,
+                  value:false
+                }
+              }
+            }).then((ans)=>{
+              if (!ans)
+                return;
+              
+              let id = e.target.getAttribute('app-id');
+              let [tagint,tagname,tagurl] = ["int-" + id.toString(), "name-" + id.toString(), "url-" + id.toString()];  
+              let [$appName,$appURL,$int] = [$("#" + tagname), $("#" + tagurl), $("#" + tagint)];
+              var UpdateData = {Id:parseInt(id), AppName:$appName.val(), AppUrl:$appURL.val(), Interval: parseInt($int.val())};
+              const settings = {
+                'url':'@Url.Action("UpdateApps")',
+                'method':'patch',        
+                'processData':false,
+                'headers': {
+                    'Content-Type': 'application/json'
+                  },
+                'data':JSON.stringify(UpdateData),
+              };
+              $.ajax(settings).done(()=>{
+                    location.reload();
+                }
+              );
+            });
+          });
+    }
+
+    setInterval(() => {
+      $.get("/home/getstates",(data)=>{        
+        const comeData = JSON.parse(data);
+        for(let d of comeData)
+        {
+          let appname = d["AppName"];
+          let $app = $('[app-row='+appname+']');
+          if(d['AppState'] == 2)
+            $app.css("background","red");
+          else          
+            $app.css("background", "rgba(111,247,148,1)");
+        }
+      })
+    }, 1000);
+  });
+</script>
+</body>

@@ -1,0 +1,140 @@
+[Information]20101-[Information]-14-20:43:20 : 
+[Information]-0-20:43:20 : 
+[Information]-0-20:43:20 : 
+[Information]-0-20:43:20 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-20101-20:43:32 : 
+[Information]-14-20:45:12 : Now listening on: https://localhost:44374
+[Information]-0-20:45:12 : Application started. Press Ctrl+C to shut down.
+[Information]-0-20:45:12 : Hosting environment: Development
+[Information]-0-20:45:12 : Content root path: N:\KACHRAMAN USB\Andon Sistem Guncelleme\AcerPro\AcerPro
+[Information]-20101-20:45:29 : Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[EMail], [d].[Password], [d].[UserName]
+FROM [DbUsers] AS [d]
+[Information]-20101-20:45:29 : Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:29 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]
+[Information]-20101-20:45:30 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]

@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.app-list-tr td:nth-child(1),.app-list-tr th:nth-child(1){
+  width: 15%;
+}
+.app-list-tr td:nth-child(2),.app-list-tr th:nth-child(2){
+  width: 20%;
+}
+.app-list-tr td:nth-child(3),.app-list-tr th:nth-child(3){
+  width: 45%;
+}
+.app-list-tr td:nth-child(4),.app-list-tr th:nth-child(4){
+  width: 20%;
+}

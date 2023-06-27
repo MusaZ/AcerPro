@@ -1,0 +1,45 @@
+﻿@model TargetApplications
+
+@{
+  ViewData["Title"] = "Uygulama Ekleme Sayfası";
+  ViewData["Auth"] = "Yes";
+}
+
+
+<head>
+</head>
+<body>
+  <div>
+    <form method="post" asp-action="AddApplications" >
+      <div class="alert-danger" role="alert" asp-validation-summary="All"></div>
+      <div class="form-group">
+        <label for="AppName" class="form-label">Uygulama İsmini Giriniz</label>
+        <input type="text" id="AppName" class="form-control" asp-for="@Model.AppName"/>
+      </div>
+      <div class="form-group">
+        <label for="AppUrl" class="form-label">Uygulama URL'ni Giriniz</label>
+        <input type="text" id="AppUrl" class="form-control" asp-for="@Model.AppUrl"/>
+      </div>
+      <div class="form-group">
+        <label for="interval" class="form-label">Tarama Zamanını Giriniz(s)</label>
+        <input type="text" id="interval" class="form-control" asp-for="@Model.Interval"/>
+      </div>
+      <br/>
+      <input style="width: 100%" type="submit" class="btn btn-primary btn-lg" value="KAYDET"></input>
+    </form>
+    <br/>
+    <button style="display: inline-flex;width: 100%;" class="btn btn-dark justify-content-center" onclick="window.location.href='https://localhost:44374/Home/MainPage';">GERİ</button>
+  </div>
+  <script src="../wwwroot/lib/jquery/dist/jquery.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      let [$inpts] = [$('input')];
+      for (let i of $inpts) {
+        if (i.value.toString().length < 1) {
+          i.focus();
+          break;
+        }
+      }
+    });
+  </script>
+</body>

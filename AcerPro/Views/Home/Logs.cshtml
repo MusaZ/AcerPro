@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Logger>;
+@{
+  ViewData["Title"] = "Log Sayfası";
+  ViewData["Auth"] = "Yes";
+}
+<html>
+  <h2 class="h2 text-center">LOGGING PAGE</h2>
+  <body>
+    <div class="m-2">
+      <table class="table-striped table table-light">
+        <thead class="thead-dark">
+          <th colspan="4" class="text-md-center">LOG DETAILS
+            <tr>
+              <td>Event ID</td>
+              <td>Log Type</td>
+              <td>Log Time</td>
+              <td>Log Message</td>              
+            </tr>
+          </th>
+        </thead>
+
+        <tbody>
+        @{
+          for(int a = 0; a < Model.Count(); a++)
+          {
+            <text>
+              <tr>
+                <td>@Model.ElementAt(a).eventId.ToString()</td>
+                <td>@Model.ElementAt(a).logLevel.ToString()</td>
+                <td>@Model.ElementAt(a).time.ToString()</td>
+                <td>@Model.ElementAt(a).message</td>
+              </tr>
+            </text>
+          }
+        }
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

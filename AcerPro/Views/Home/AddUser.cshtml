@@ -1,0 +1,42 @@
+﻿@model Users
+
+@{
+  ViewData["Title"] = "Yeni Kullanıcı Ekle";
+  ViewData["Auth"] = "No";
+}
+
+<body>
+  <div>
+    <form method="post" class="add-frm m-2">
+      <div asp-validation-summary="All" class="alert alert-danger"></div>
+      <div class="form-group">
+        <label for="username" class="form-label">Yeni Kullanıcı Adı</label>
+        <input id="username" type="text" class="form-control" asp-for="@Model.UserName"/>
+      </div>
+      <div class="form-group">
+        <label for="password" class="form-label">Yeni Kullanıcı Parolası</label>
+        <input id="password" type="password" class="form-control" asp-for="@Model.Password"/>
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Yeni Kullanıcı EMail Adresi</label>
+        <input id="email" type="email" class="form-control" asp-for="@Model.EMail"/>
+      </div>
+      <br/>
+      <input type="submit" class="btn btn-primary" value="KAYDET" style="width: 100%;" ></input>
+    </form>
+  </div>
+  <script src="../wwwroot/lib/jquery/dist/jquery.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', ()=>{
+      let [$inpts] = [$('input')];
+      for(let i of $inpts)
+      {
+        if(i.value.toString().length < 1)
+        {
+          i.focus();
+          break;
+        }
+      }
+    });
+  </script>
+</body>

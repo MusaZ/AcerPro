@@ -1,0 +1,1540 @@
+1-[Information]-63-21:28:12 = "User profile is available. Using 'C:\Users\Dijital&Kafa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest."
+1-[Information]-14-21:28:12 = "Now listening on: https://localhost:44374"
+1-[Information]-0-21:28:12 = "Application started. Press Ctrl+C to shut down."
+1-[Information]-0-21:28:12 = "Hosting environment: Development"
+1-[Information]-0-21:28:12 = "Content root path: N:\KACHRAMAN USB\Andon Sistem Guncelleme\AcerPro\AcerPro"
+1-[Information]-1-21:28:12 = "Request starting HTTP/2 GET https://localhost:44374/ - -"
+1-[Information]-0-21:28:12 = "Executing endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+1-[Information]-102-21:28:12 = "Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:12 = "Executing ViewResult, running view Index."
+1-[Information]-4-21:28:12 = "Executed ViewResult - view Index executed in 47.657ms."
+1-[Information]-105-21:28:12 = "Executed action AcerPro.Controllers.HomeController.Login (AcerPro) in 102.2016ms"
+1-[Information]-1-21:28:12 = "Executed endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+1-[Information]-2-21:28:12 = "Request finished HTTP/2 GET https://localhost:44374/ - - - 200 - text/html;+charset=utf-8 131.2329ms"
+1-[Information]-1-21:28:12 = "Request starting HTTP/2 GET https://localhost:44374/lib/jquery/dist/jquery.js - -"
+1-[Information]-1-21:28:12 = "Request starting HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - -"
+1-[Information]-2-21:28:12 = "Request finished HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 5.2991ms"
+1-[Information]-2-21:28:12 = "Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'N:\KACHRAMAN USB\Andon Sistem Guncelleme\AcerPro\AcerPro\wwwroot\lib\jquery\dist\jquery.js'"
+1-[Information]-2-21:28:12 = "Request finished HTTP/2 GET https://localhost:44374/lib/jquery/dist/jquery.js - - - 200 299461 text/javascript 10.1799ms"
+1-[Information]-1-21:28:18 = "Request starting HTTP/2 POST https://localhost:44374/Home/Login application/x-www-form-urlencoded 211"
+1-[Information]-0-21:28:18 = "Executing endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+1-[Information]-102-21:28:18 = "Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AcerPro.Models.LoginData) on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-20101-21:28:18 = "Executed DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[EMail], [d].[Password], [d].[UserName]
+FROM [DbUsers] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-1-21:28:18 = "Executing RedirectResult, redirecting to /Home/MainPage."
+1-[Information]-105-21:28:18 = "Executed action AcerPro.Controllers.HomeController.Login (AcerPro) in 428.3053ms"
+1-[Information]-1-21:28:18 = "Executed endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+1-[Information]-2-21:28:18 = "Request finished HTTP/2 POST https://localhost:44374/Home/Login application/x-www-form-urlencoded 211 - 302 0 - 439.3658ms"
+1-[Information]-1-21:28:18 = "Request starting HTTP/2 GET https://localhost:44374/Home/MainPage - -"
+1-[Information]-0-21:28:18 = "Executing endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+1-[Information]-102-21:28:18 = "Route matched with {action = "MainPage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MainPage() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:18 = "Executing ViewResult, running view MainPage."
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:28:18 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-4-21:28:18 = "Executed ViewResult - view MainPage executed in 32.7126ms."
+1-[Information]-105-21:28:18 = "Executed action AcerPro.Controllers.HomeController.MainPage (AcerPro) in 35.7803ms"
+1-[Information]-1-21:28:18 = "Executed endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+1-[Information]-2-21:28:18 = "Request finished HTTP/2 GET https://localhost:44374/Home/MainPage - - - 200 - text/html;+charset=utf-8 39.7654ms"
+1-[Information]-1-21:28:18 = "Request starting HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - -"
+1-[Information]-2-21:28:18 = "Request finished HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.7811ms"
+1-[Information]-1-21:28:19 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:19 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:19 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:19 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:19 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 48.6916ms"
+1-[Information]-1-21:28:19 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:19 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 53.0546ms"
+1-[Information]-1-21:28:20 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:20 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:20 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:20 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:20 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 1.0524ms"
+1-[Information]-1-21:28:20 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:20 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.8606ms"
+1-[Information]-1-21:28:21 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:21 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:21 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:21 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:21 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6979ms"
+1-[Information]-1-21:28:21 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:21 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.3702ms"
+1-[Information]-1-21:28:22 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:22 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:22 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:22 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:22 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6919ms"
+1-[Information]-1-21:28:22 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:22 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.3380ms"
+1-[Information]-1-21:28:23 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:23 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:23 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:23 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:23 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6772ms"
+1-[Information]-1-21:28:23 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:23 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.3122ms"
+1-[Information]-1-21:28:24 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:24 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:24 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:24 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:24 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6727ms"
+1-[Information]-1-21:28:24 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:24 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.4186ms"
+1-[Information]-1-21:28:25 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:25 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:25 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:25 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:25 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6602ms"
+1-[Information]-1-21:28:25 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:25 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.3498ms"
+1-[Information]-1-21:28:26 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:26 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:26 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:26 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:26 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6985ms"
+1-[Information]-1-21:28:26 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:26 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.3680ms"
+1-[Information]-1-21:28:27 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:27 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:27 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:27 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:27 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6154ms"
+1-[Information]-1-21:28:27 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:27 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.2562ms"
+1-[Information]-1-21:28:28 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:28 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:28 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:28 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:28 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6321ms"
+1-[Information]-1-21:28:28 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:28 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.3334ms"
+1-[Information]-1-21:28:29 = "Request starting HTTP/2 GET https://localhost:44374/Home/MainPage - -"
+1-[Information]-0-21:28:29 = "Executing endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+1-[Information]-102-21:28:29 = "Route matched with {action = "MainPage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MainPage() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:29 = "Executing ViewResult, running view MainPage."
+1-[Information]-20101-21:28:29 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-4-21:28:29 = "Executed ViewResult - view MainPage executed in 27.4426ms."
+1-[Information]-105-21:28:29 = "Executed action AcerPro.Controllers.HomeController.MainPage (AcerPro) in 28.0525ms"
+1-[Information]-1-21:28:29 = "Executed endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+1-[Information]-2-21:28:29 = "Request finished HTTP/2 GET https://localhost:44374/Home/MainPage - - - 200 - text/html;+charset=utf-8 29.8644ms"
+1-[Information]-1-21:28:29 = "Request starting HTTP/2 GET https://localhost:44374/lib/sweetalert.min.js - -"
+1-[Information]-1-21:28:29 = "Request starting HTTP/2 GET https://localhost:44374/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -"
+1-[Information]-2-21:28:29 = "Sending file. Request path: '/js/site.js'. Physical path: 'N:\KACHRAMAN USB\Andon Sistem Guncelleme\AcerPro\AcerPro\wwwroot\js\site.js'"
+1-[Information]-2-21:28:29 = "Sending file. Request path: '/lib/sweetalert.min.js'. Physical path: 'N:\KACHRAMAN USB\Andon Sistem Guncelleme\AcerPro\AcerPro\wwwroot\lib\sweetalert.min.js'"
+1-[Information]-2-21:28:29 = "Request finished HTTP/2 GET https://localhost:44374/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 2.2463ms"
+1-[Information]-2-21:28:29 = "Request finished HTTP/2 GET https://localhost:44374/lib/sweetalert.min.js - - - 200 40808 text/javascript 2.6089ms"
+1-[Warning]-0-21:28:29 = "Connection processing ended abnormally."
+1-[Warning]-0-21:28:29 = "Connection processing ended abnormally."
+1-[Information]-1-21:28:29 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:29 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:29 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:29 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:29 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6946ms"
+1-[Information]-1-21:28:29 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:29 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.4818ms"
+1-[Information]-1-21:28:30 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:30 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:30 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:30 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:30 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.805ms"
+1-[Information]-1-21:28:30 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:30 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.5224ms"
+1-[Information]-1-21:28:31 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:31 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:31 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:31 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:31 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.771ms"
+1-[Information]-1-21:28:31 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:31 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.5222ms"
+1-[Information]-1-21:28:32 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:32 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:32 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:32 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:32 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6585ms"
+1-[Information]-1-21:28:32 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:32 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.4014ms"
+1-[Information]-1-21:28:33 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:33 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:33 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:33 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:33 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6357ms"
+1-[Information]-1-21:28:33 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:33 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.2581ms"
+1-[Information]-1-21:28:34 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:34 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:34 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:34 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:34 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6924ms"
+1-[Information]-1-21:28:34 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:34 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.4691ms"
+1-[Information]-1-21:28:35 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:35 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:35 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:35 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:35 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5926ms"
+1-[Information]-1-21:28:35 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:35 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1953ms"
+1-[Information]-1-21:28:36 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:36 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:36 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:36 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:36 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6157ms"
+1-[Information]-1-21:28:36 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:36 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.2918ms"
+1-[Information]-1-21:28:37 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:37 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:37 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:37 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:37 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.547ms"
+1-[Information]-1-21:28:37 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:37 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.2071ms"
+1-[Information]-1-21:28:38 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:38 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:38 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:38 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:38 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6076ms"
+1-[Information]-1-21:28:38 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:38 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.3193ms"
+1-[Information]-1-21:28:39 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:39 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:39 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:39 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:39 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6948ms"
+1-[Information]-1-21:28:39 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:39 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.4216ms"
+1-[Information]-1-21:28:40 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:40 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:40 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:40 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:40 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.624ms"
+1-[Information]-1-21:28:40 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:40 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.3597ms"
+1-[Information]-1-21:28:41 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:41 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:41 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:41 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:41 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5732ms"
+1-[Information]-1-21:28:41 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:41 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1919ms"
+1-[Information]-1-21:28:41 = "Request starting HTTP/2 GET https://localhost:44374/Home/ - -"
+1-[Information]-0-21:28:41 = "Executing endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+1-[Information]-102-21:28:41 = "Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:41 = "Executing ViewResult, running view Index."
+1-[Information]-4-21:28:41 = "Executed ViewResult - view Index executed in 2.7285ms."
+1-[Information]-105-21:28:41 = "Executed action AcerPro.Controllers.HomeController.Login (AcerPro) in 3.1733ms"
+1-[Information]-1-21:28:41 = "Executed endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+1-[Information]-2-21:28:41 = "Request finished HTTP/2 GET https://localhost:44374/Home/ - - - 200 - text/html;+charset=utf-8 5.5860ms"
+1-[Information]-1-21:28:41 = "Request starting HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - -"
+1-[Information]-1-21:28:41 = "Request starting HTTP/2 GET https://localhost:44374/lib/jquery/dist/jquery.js - -"
+1-[Information]-1-21:28:41 = "Request starting HTTP/2 GET https://localhost:44374/AcerPro.styles.css?v=P79B7f8U6XT5CVKxtV8bIf9ydg3mefxAN_ZkqTcLCHk - -"
+1-[Information]-2-21:28:41 = "Request finished HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.5699ms"
+1-[Information]-2-21:28:41 = "Sending file. Request path: '/AcerPro.styles.css'. Physical path: 'N:\KACHRAMAN USB\Andon Sistem Guncelleme\AcerPro\AcerPro\obj\Debug\net7.0\scopedcss\bundle\AcerPro.styles.css'"
+1-[Information]-2-21:28:41 = "Request finished HTTP/2 GET https://localhost:44374/AcerPro.styles.css?v=P79B7f8U6XT5CVKxtV8bIf9ydg3mefxAN_ZkqTcLCHk - - - 200 1124 text/css 1.0467ms"
+1-[Information]-2-21:28:41 = "Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'N:\KACHRAMAN USB\Andon Sistem Guncelleme\AcerPro\AcerPro\wwwroot\lib\jquery\dist\jquery.js'"
+1-[Information]-2-21:28:41 = "Request finished HTTP/2 GET https://localhost:44374/lib/jquery/dist/jquery.js - - - 200 299461 text/javascript 2.0581ms"
+1-[Information]-1-21:28:41 = "Request starting HTTP/2 GET https://localhost:44374/Home/ - -"
+1-[Information]-0-21:28:41 = "Executing endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+1-[Information]-102-21:28:41 = "Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:41 = "Executing ViewResult, running view Index."
+1-[Information]-4-21:28:41 = "Executed ViewResult - view Index executed in 1.7135ms."
+1-[Information]-105-21:28:41 = "Executed action AcerPro.Controllers.HomeController.Login (AcerPro) in 2.1831ms"
+1-[Information]-1-21:28:41 = "Executed endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+1-[Information]-2-21:28:41 = "Request finished HTTP/2 GET https://localhost:44374/Home/ - - - 200 - text/html;+charset=utf-8 4.0352ms"
+1-[Information]-1-21:28:41 = "Request starting HTTP/2 GET https://localhost:44374/favicon.ico - -"
+1-[Information]-2-21:28:42 = "Sending file. Request path: '/favicon.ico'. Physical path: 'N:\KACHRAMAN USB\Andon Sistem Guncelleme\AcerPro\AcerPro\wwwroot\favicon.ico'"
+1-[Information]-2-21:28:42 = "Request finished HTTP/2 GET https://localhost:44374/favicon.ico - - - 200 5430 image/x-icon 11.1314ms"
+1-[Information]-1-21:28:42 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:42 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:42 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:42 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:42 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5491ms"
+1-[Information]-1-21:28:42 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:42 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1809ms"
+1-[Information]-1-21:28:43 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:43 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:43 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:43 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:43 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6859ms"
+1-[Information]-1-21:28:43 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:43 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.5951ms"
+1-[Information]-1-21:28:44 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:44 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:44 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:44 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:44 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6988ms"
+1-[Information]-1-21:28:44 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:44 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.4844ms"
+1-[Information]-1-21:28:45 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:45 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:45 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:45 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:45 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6009ms"
+1-[Information]-1-21:28:45 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:45 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.2258ms"
+1-[Information]-1-21:28:46 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:46 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:46 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:46 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:46 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.524ms"
+1-[Information]-1-21:28:46 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:46 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.0507ms"
+1-[Information]-1-21:28:47 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:28:47 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:28:47 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:28:47 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:28:47 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5135ms"
+1-[Information]-1-21:28:47 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:28:47 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.0226ms"
+1-[Information]-1-21:28:47 = "Request starting HTTP/2 POST https://localhost:44374/Home/Login application/x-www-form-urlencoded 211"
+1-[Information]-0-21:28:47 = "Executing endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+1-[Information]-102-21:28:47 = "Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AcerPro.Models.LoginData) on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[EMail], [d].[Password], [d].[UserName]
+FROM [DbUsers] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-1-21:28:47 = "Executing RedirectResult, redirecting to /Home/MainPage."
+2-[Information]-105-21:28:47 = "Executed action AcerPro.Controllers.HomeController.Login (AcerPro) in 3.6368ms"
+2-[Information]-1-21:28:47 = "Executed endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+2-[Information]-2-21:28:47 = "Request finished HTTP/2 POST https://localhost:44374/Home/Login application/x-www-form-urlencoded 211 - 302 0 - 5.4253ms"
+2-[Information]-1-21:28:47 = "Request starting HTTP/2 GET https://localhost:44374/Home/MainPage - -"
+2-[Information]-0-21:28:47 = "Executing endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+2-[Information]-102-21:28:47 = "Route matched with {action = "MainPage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MainPage() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:47 = "Executing ViewResult, running view MainPage."
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:47 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-4-21:28:47 = "Executed ViewResult - view MainPage executed in 12.7252ms."
+2-[Information]-105-21:28:47 = "Executed action AcerPro.Controllers.HomeController.MainPage (AcerPro) in 13.0859ms"
+2-[Information]-1-21:28:47 = "Executed endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+2-[Information]-2-21:28:47 = "Request finished HTTP/2 GET https://localhost:44374/Home/MainPage - - - 200 - text/html;+charset=utf-8 14.5033ms"
+2-[Information]-1-21:28:47 = "Request starting HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - -"
+2-[Information]-2-21:28:47 = "Request finished HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.4508ms"
+2-[Information]-1-21:28:47 = "Request starting HTTP/2 GET https://localhost:44374/Home/MainPage - -"
+2-[Information]-0-21:28:48 = "Executing endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+2-[Information]-102-21:28:48 = "Route matched with {action = "MainPage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MainPage() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:48 = "Executing ViewResult, running view MainPage."
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:28:48 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-4-21:28:48 = "Executed ViewResult - view MainPage executed in 14.1885ms."
+2-[Information]-105-21:28:48 = "Executed action AcerPro.Controllers.HomeController.MainPage (AcerPro) in 14.5828ms"
+2-[Information]-1-21:28:48 = "Executed endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+2-[Information]-2-21:28:48 = "Request finished HTTP/2 GET https://localhost:44374/Home/MainPage - - - 200 - text/html;+charset=utf-8 16.2279ms"
+2-[Information]-1-21:28:48 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:48 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:48 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:48 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:48 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5145ms"
+2-[Information]-1-21:28:48 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:48 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.0129ms"
+2-[Information]-1-21:28:49 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:49 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:49 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:49 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:49 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6457ms"
+2-[Information]-1-21:28:49 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:49 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.3774ms"
+2-[Information]-1-21:28:49 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:49 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:49 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:49 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:49 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6337ms"
+2-[Information]-1-21:28:49 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:49 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1492ms"
+2-[Information]-1-21:28:50 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:50 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:50 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:50 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:50 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5301ms"
+2-[Information]-1-21:28:50 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:50 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.0847ms"
+2-[Information]-1-21:28:50 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:50 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:50 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:50 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:50 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5271ms"
+2-[Information]-1-21:28:50 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:50 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.2620ms"
+2-[Information]-1-21:28:51 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:51 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:51 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:51 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:51 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5413ms"
+2-[Information]-1-21:28:51 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:51 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.2348ms"
+2-[Information]-1-21:28:51 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:51 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:51 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:51 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:51 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4471ms"
+2-[Information]-1-21:28:51 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:51 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 1.9237ms"
+2-[Information]-1-21:28:52 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:52 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:52 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:52 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:52 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5118ms"
+2-[Information]-1-21:28:52 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:52 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1678ms"
+2-[Information]-1-21:28:52 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:52 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:52 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:52 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:52 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4976ms"
+2-[Information]-1-21:28:52 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:52 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.0732ms"
+2-[Information]-1-21:28:53 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:53 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:53 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:53 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:53 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5013ms"
+2-[Information]-1-21:28:53 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:53 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1644ms"
+2-[Information]-1-21:28:53 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:53 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:53 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:53 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:53 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4624ms"
+2-[Information]-1-21:28:53 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:53 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 1.9044ms"
+2-[Information]-1-21:28:53 = "Request starting HTTP/2 GET https://localhost:44374/Home/Logs - -"
+2-[Information]-0-21:28:53 = "Executing endpoint 'AcerPro.Controllers.HomeController.Logs (AcerPro)'"
+2-[Information]-102-21:28:53 = "Route matched with {action = "Logs", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logs() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:53 = "Executing ViewResult, running view Logs."
+2-[Information]-105-21:28:53 = "Executed action AcerPro.Controllers.HomeController.Logs (AcerPro) in 95.7566ms"
+2-[Information]-1-21:28:53 = "Executed endpoint 'AcerPro.Controllers.HomeController.Logs (AcerPro)'"
+2-[Error]-1-21:28:53 = "An unhandled exception has occurred while executing the request."
+2-[Information]-2-21:28:53 = "Request finished HTTP/2 GET https://localhost:44374/Home/Logs - - - 500 0 - 107.2440ms"
+2-[Information]-1-21:28:54 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:54 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:54 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:54 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:54 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5292ms"
+2-[Information]-1-21:28:54 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:54 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.0229ms"
+2-[Information]-1-21:28:55 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:55 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:55 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:55 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:55 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5155ms"
+2-[Information]-1-21:28:55 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:55 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1119ms"
+2-[Information]-1-21:28:56 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:56 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:56 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:56 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:56 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5279ms"
+2-[Information]-1-21:28:56 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:56 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.2744ms"
+2-[Information]-1-21:28:56 = "Request starting HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - -"
+2-[Information]-2-21:28:56 = "Request finished HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 1.3230ms"
+2-[Information]-1-21:28:57 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:57 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:57 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:57 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:57 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 1.2824ms"
+2-[Information]-1-21:28:57 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:57 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 5.2819ms"
+2-[Information]-1-21:28:57 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:57 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:57 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:57 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:57 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4721ms"
+2-[Information]-1-21:28:57 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:57 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1003ms"
+2-[Information]-1-21:28:58 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:58 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:58 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:58 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:58 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5036ms"
+2-[Information]-1-21:28:58 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:58 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.2778ms"
+2-[Information]-1-21:28:58 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:58 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:58 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:58 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:58 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5265ms"
+2-[Information]-1-21:28:58 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:58 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.0809ms"
+2-[Information]-1-21:28:59 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:59 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:59 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:59 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:59 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 1.316ms"
+2-[Information]-1-21:28:59 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:59 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 5.4675ms"
+2-[Information]-1-21:28:59 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:28:59 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:28:59 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:28:59 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:28:59 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4711ms"
+2-[Information]-1-21:28:59 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:28:59 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.0845ms"
+2-[Information]-1-21:29:00 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:00 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:00 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:00 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:00 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5087ms"
+2-[Information]-1-21:29:00 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:00 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1984ms"
+2-[Information]-1-21:29:00 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:00 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:00 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:00 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:00 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 1.2121ms"
+2-[Information]-1-21:29:00 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:00 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 4.9833ms"
+2-[Information]-1-21:29:01 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:01 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:01 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:01 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:01 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5058ms"
+2-[Information]-1-21:29:01 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:01 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1537ms"
+2-[Information]-1-21:29:01 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:01 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:01 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:01 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:01 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4554ms"
+2-[Information]-1-21:29:01 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:01 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 1.9718ms"
+2-[Information]-1-21:29:02 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:02 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:02 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:02 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:02 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5465ms"
+2-[Information]-1-21:29:02 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:02 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1605ms"
+2-[Information]-1-21:29:02 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:02 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:02 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:02 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:02 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5017ms"
+2-[Information]-1-21:29:02 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:02 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.0589ms"
+2-[Information]-1-21:29:03 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:03 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:03 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:03 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:03 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5049ms"
+2-[Information]-1-21:29:03 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:03 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1058ms"
+2-[Information]-1-21:29:03 = "Request starting HTTP/2 GET https://localhost:44374/Home/Logs - -"
+2-[Information]-0-21:29:03 = "Executing endpoint 'AcerPro.Controllers.HomeController.Logs (AcerPro)'"
+2-[Information]-102-21:29:03 = "Route matched with {action = "Logs", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logs() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:03 = "Executing ViewResult, running view Logs."
+2-[Information]-105-21:29:03 = "Executed action AcerPro.Controllers.HomeController.Logs (AcerPro) in 127.7953ms"
+2-[Information]-1-21:29:03 = "Executed endpoint 'AcerPro.Controllers.HomeController.Logs (AcerPro)'"
+2-[Error]-1-21:29:03 = "An unhandled exception has occurred while executing the request."
+2-[Information]-2-21:29:03 = "Request finished HTTP/2 GET https://localhost:44374/Home/Logs - - - 500 0 - 131.5729ms"
+2-[Information]-1-21:29:03 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:03 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:03 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:03 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:03 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5101ms"
+2-[Information]-1-21:29:03 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:03 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1786ms"
+2-[Information]-1-21:29:04 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:04 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:04 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:04 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:04 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4662ms"
+2-[Information]-1-21:29:04 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:04 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 1.9741ms"
+2-[Information]-1-21:29:04 = "Request starting HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - -"
+2-[Information]-2-21:29:04 = "Request finished HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.5808ms"
+2-[Information]-1-21:29:04 = "Request starting HTTP/2 GET https://localhost:44374/Home/MainPage - -"
+2-[Information]-0-21:29:04 = "Executing endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+2-[Information]-102-21:29:04 = "Route matched with {action = "MainPage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MainPage() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:04 = "Executing ViewResult, running view MainPage."
+2-[Information]-20101-21:29:04 = "Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:04 = "Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-4-21:29:04 = "Executed ViewResult - view MainPage executed in 35.0911ms."
+2-[Information]-105-21:29:04 = "Executed action AcerPro.Controllers.HomeController.MainPage (AcerPro) in 35.5515ms"
+2-[Information]-1-21:29:04 = "Executed endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+2-[Information]-2-21:29:04 = "Request finished HTTP/2 GET https://localhost:44374/Home/MainPage - - - 200 - text/html;+charset=utf-8 37.4782ms"
+2-[Information]-1-21:29:05 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:05 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:05 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:05 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:05 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5228ms"
+2-[Information]-1-21:29:05 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:05 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1087ms"
+2-[Information]-1-21:29:05 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:05 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:05 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:05 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:05 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.6173ms"
+2-[Information]-1-21:29:05 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:05 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.3108ms"
+2-[Information]-1-21:29:06 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:06 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:06 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:06 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:06 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4906ms"
+2-[Information]-1-21:29:06 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:06 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1209ms"
+2-[Information]-1-21:29:06 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:06 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:06 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:06 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:06 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.479ms"
+2-[Information]-1-21:29:06 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:06 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1439ms"
+2-[Information]-1-21:29:07 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:07 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:07 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:07 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:07 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5479ms"
+2-[Information]-1-21:29:07 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:07 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.2834ms"
+2-[Information]-1-21:29:07 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:07 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:07 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:07 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:07 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5995ms"
+2-[Information]-1-21:29:07 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:07 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.4397ms"
+2-[Information]-1-21:29:08 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:08 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:08 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:08 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:08 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4926ms"
+2-[Information]-1-21:29:08 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:08 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 1.9616ms"
+2-[Information]-1-21:29:08 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:08 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:08 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:08 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:08 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5314ms"
+2-[Information]-1-21:29:08 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:08 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1599ms"
+2-[Information]-1-21:29:09 = "Request starting HTTP/2 GET https://localhost:44374/Home/MainPage - -"
+2-[Information]-0-21:29:09 = "Executing endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+2-[Information]-102-21:29:09 = "Route matched with {action = "MainPage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MainPage() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:09 = "Executing ViewResult, running view MainPage."
+2-[Information]-20101-21:29:09 = "Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-4-21:29:09 = "Executed ViewResult - view MainPage executed in 13.1278ms."
+2-[Information]-105-21:29:09 = "Executed action AcerPro.Controllers.HomeController.MainPage (AcerPro) in 13.4785ms"
+2-[Information]-1-21:29:09 = "Executed endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+2-[Information]-2-21:29:09 = "Request finished HTTP/2 GET https://localhost:44374/Home/MainPage - - - 200 - text/html;+charset=utf-8 15.1665ms"
+2-[Information]-1-21:29:09 = "Request starting HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - -"
+2-[Information]-2-21:29:09 = "Request finished HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.4446ms"
+2-[Information]-1-21:29:09 = "Request starting HTTP/2 GET https://localhost:44374/Home/MainPage - -"
+2-[Information]-0-21:29:09 = "Executing endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+2-[Information]-102-21:29:09 = "Route matched with {action = "MainPage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MainPage() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:09 = "Executing ViewResult, running view MainPage."
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:09 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-4-21:29:09 = "Executed ViewResult - view MainPage executed in 13.593ms."
+2-[Information]-105-21:29:09 = "Executed action AcerPro.Controllers.HomeController.MainPage (AcerPro) in 14.0079ms"
+2-[Information]-1-21:29:09 = "Executed endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+2-[Information]-2-21:29:09 = "Request finished HTTP/2 GET https://localhost:44374/Home/MainPage - - - 200 - text/html;+charset=utf-8 15.7919ms"
+2-[Information]-1-21:29:09 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:09 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:09 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:09 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:09 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.455ms"
+2-[Information]-1-21:29:09 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:09 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 1.8886ms"
+2-[Information]-1-21:29:10 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:10 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:10 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:10 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:10 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5239ms"
+2-[Information]-1-21:29:10 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:10 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1120ms"
+2-[Information]-1-21:29:10 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:10 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:10 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:10 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:10 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4956ms"
+2-[Information]-1-21:29:10 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:10 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 1.9711ms"
+2-[Information]-1-21:29:11 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:11 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:11 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:11 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:11 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5301ms"
+2-[Information]-1-21:29:11 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:11 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.2388ms"
+2-[Information]-1-21:29:11 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:11 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:11 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:11 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:11 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5365ms"
+2-[Information]-1-21:29:11 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:11 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1136ms"
+2-[Information]-1-21:29:12 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:12 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:12 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:12 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:12 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5491ms"
+2-[Information]-1-21:29:12 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:12 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.0282ms"
+2-[Information]-1-21:29:12 = "Request starting HTTP/2 GET https://localhost:44374/Home/MainPage - -"
+2-[Information]-0-21:29:12 = "Executing endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+2-[Information]-102-21:29:12 = "Route matched with {action = "MainPage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MainPage() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:12 = "Executing ViewResult, running view MainPage."
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-20101-21:29:12 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+2-[Information]-4-21:29:12 = "Executed ViewResult - view MainPage executed in 12.6934ms."
+2-[Information]-105-21:29:12 = "Executed action AcerPro.Controllers.HomeController.MainPage (AcerPro) in 13.048ms"
+2-[Information]-1-21:29:12 = "Executed endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+2-[Information]-2-21:29:12 = "Request finished HTTP/2 GET https://localhost:44374/Home/MainPage - - - 200 - text/html;+charset=utf-8 14.6997ms"
+2-[Information]-1-21:29:12 = "Request starting HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - -"
+2-[Information]-2-21:29:12 = "Request finished HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.5182ms"
+2-[Information]-1-21:29:12 = "Request starting HTTP/2 GET https://localhost:44374/favicon.ico - -"
+2-[Information]-6-21:29:12 = "The file /favicon.ico was not modified"
+2-[Information]-2-21:29:12 = "Request finished HTTP/2 GET https://localhost:44374/favicon.ico - - - 304 - image/x-icon 1.3307ms"
+2-[Information]-1-21:29:13 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:13 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:13 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:13 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:13 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.5273ms"
+2-[Information]-1-21:29:13 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:13 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1318ms"
+2-[Information]-1-21:29:13 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:13 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:13 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:13 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:13 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4586ms"
+2-[Information]-1-21:29:13 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:13 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.0542ms"
+2-[Information]-1-21:29:14 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:14 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:14 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:14 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:14 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4803ms"
+2-[Information]-1-21:29:14 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:14 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 1.9400ms"
+2-[Information]-1-21:29:14 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:14 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:14 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:14 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:14 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4669ms"
+2-[Information]-1-21:29:14 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:14 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 1.9050ms"
+2-[Information]-1-21:29:15 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:15 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:15 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:15 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:15 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4992ms"
+2-[Information]-1-21:29:15 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:15 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 1.9921ms"
+2-[Information]-1-21:29:15 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:15 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:15 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:15 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:15 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4812ms"
+2-[Information]-1-21:29:15 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:15 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.0131ms"
+2-[Information]-1-21:29:16 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-0-21:29:16 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-102-21:29:16 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:16 = "Executing ObjectResult, writing value of type 'System.String'."
+2-[Information]-105-21:29:16 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 0.4789ms"
+2-[Information]-1-21:29:16 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+2-[Information]-2-21:29:16 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 2.1136ms"
+2-[Information]-1-21:29:16 = "Request starting HTTP/2 GET https://localhost:44374/Home/Logout - -"
+2-[Information]-0-21:29:16 = "Executing endpoint 'AcerPro.Controllers.HomeController.Logout (AcerPro)'"
+2-[Information]-102-21:29:16 = "Route matched with {action = "Logout", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logout() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:16 = "Executing RedirectResult, redirecting to Login."
+2-[Information]-105-21:29:16 = "Executed action AcerPro.Controllers.HomeController.Logout (AcerPro) in 3.1441ms"
+2-[Information]-1-21:29:16 = "Executed endpoint 'AcerPro.Controllers.HomeController.Logout (AcerPro)'"
+2-[Information]-2-21:29:16 = "Request finished HTTP/2 GET https://localhost:44374/Home/Logout - - - 302 0 - 5.7659ms"
+2-[Information]-1-21:29:16 = "Request starting HTTP/2 GET https://localhost:44374/Home/Login - -"
+2-[Information]-0-21:29:16 = "Executing endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+2-[Information]-102-21:29:16 = "Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:16 = "Executing ViewResult, running view Index."
+2-[Information]-4-21:29:16 = "Executed ViewResult - view Index executed in 1.101ms."
+2-[Information]-105-21:29:16 = "Executed action AcerPro.Controllers.HomeController.Login (AcerPro) in 1.477ms"
+2-[Information]-1-21:29:16 = "Executed endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+2-[Information]-2-21:29:16 = "Request finished HTTP/2 GET https://localhost:44374/Home/Login - - - 200 - text/html;+charset=utf-8 3.4098ms"
+2-[Information]-1-21:29:16 = "Request starting HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - -"
+2-[Information]-2-21:29:16 = "Request finished HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.6048ms"
+2-[Information]-1-21:29:17 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+2-[Information]-2-21:29:17 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 302 0 - 0.5855ms"
+2-[Information]-1-21:29:17 = "Request starting HTTP/2 GET https://localhost:44374/home/Login - -"
+2-[Information]-0-21:29:17 = "Executing endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+2-[Information]-102-21:29:17 = "Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:17 = "Executing ViewResult, running view Index."
+2-[Information]-4-21:29:17 = "Executed ViewResult - view Index executed in 1.1126ms."
+2-[Information]-105-21:29:17 = "Executed action AcerPro.Controllers.HomeController.Login (AcerPro) in 1.4954ms"
+2-[Information]-1-21:29:17 = "Executed endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+2-[Information]-2-21:29:17 = "Request finished HTTP/2 GET https://localhost:44374/home/Login - - - 200 - text/html;+charset=utf-8 2.9295ms"
+2-[Information]-1-21:29:18 = "Request starting HTTP/2 GET https://localhost:44374/Home/Logout - -"
+2-[Information]-2-21:29:18 = "Request finished HTTP/2 GET https://localhost:44374/Home/Logout - - - 302 0 - 0.6003ms"
+2-[Information]-1-21:29:18 = "Request starting HTTP/2 GET https://localhost:44374/Home/Login - -"
+2-[Information]-0-21:29:18 = "Executing endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+2-[Information]-102-21:29:18 = "Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:18 = "Executing ViewResult, running view Index."
+2-[Information]-4-21:29:18 = "Executed ViewResult - view Index executed in 1.1863ms."
+2-[Information]-105-21:29:18 = "Executed action AcerPro.Controllers.HomeController.Login (AcerPro) in 1.5663ms"
+2-[Information]-1-21:29:18 = "Executed endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+2-[Information]-2-21:29:18 = "Request finished HTTP/2 GET https://localhost:44374/Home/Login - - - 200 - text/html;+charset=utf-8 3.0781ms"
+2-[Information]-1-21:29:18 = "Request starting HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - -"
+2-[Information]-2-21:29:18 = "Request finished HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - - - 200 11963 application/javascript;+charset=utf-8 0.4610ms"
+2-[Information]-1-21:29:18 = "Request starting HTTP/2 GET https://localhost:44374/Home/Login - -"
+2-[Information]-0-21:29:18 = "Executing endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+2-[Information]-102-21:29:18 = "Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AcerPro.Controllers.HomeController (AcerPro)."
+2-[Information]-1-21:29:18 = "Executing ViewResult, running view Index."
+2-[Information]-4-21:29:18 = "Executed ViewResult - view Index executed in 1.3787ms."
+2-[Information]-105-21:29:18 = "Executed action AcerPro.Controllers.HomeController.Login (AcerPro) in 1.8114ms"
+2-[Information]-1-21:29:18 = "Executed endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+2-[Information]-2-21:29:18 = "Request finished HTTP/2 GET https://localhost:44374/Home/Login - - - 200 - text/html;+charset=utf-8 3.6606ms"
+2-[Information]-0-21:29:24 = "Application is shutting down..."
+-[Information]-63-21:41:29 = "User profile is available. Using 'C:\Users\Dijital&Kafa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest."
+-[Information]-14-21:41:29 = "Now listening on: https://localhost:44374"
+-[Information]-0-21:41:29 = "Application started. Press Ctrl+C to shut down."
+-[Information]-0-21:41:29 = "Hosting environment: Development"
+-[Information]-0-21:41:29 = "Content root path: N:\KACHRAMAN USB\Andon Sistem Guncelleme\AcerPro\AcerPro"
+-[Information]-1-21:41:29 = "Request starting HTTP/2 GET https://localhost:44374/ - -"
+-[Information]-2-21:41:34 = "Request finished HTTP/2 GET https://localhost:44374/ - - - 302 0 - 4584.9902ms"
+-[Information]-1-21:41:34 = "Request starting HTTP/2 GET https://localhost:44374/Home/Login - -"
+-[Information]-0-21:41:35 = "Executing endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+-[Information]-102-21:41:35 = "Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AcerPro.Controllers.HomeController (AcerPro)."
+-[Information]-101-21:41:35 = "Executing action method AcerPro.Controllers.HomeController.Login (AcerPro) - Validation state: Valid"
+-[Information]-103-21:41:35 = "Executed action method AcerPro.Controllers.HomeController.Login (AcerPro), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4962ms."
+-[Information]-1-21:41:35 = "Executing ViewResult, running view Index."
+-[Information]-4-21:41:35 = "Executed ViewResult - view Index executed in 60.2881ms."
+-[Information]-105-21:41:35 = "Executed action AcerPro.Controllers.HomeController.Login (AcerPro) in 202.7152ms"
+-[Information]-1-21:41:35 = "Executed endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+-[Information]-2-21:41:35 = "Request finished HTTP/2 GET https://localhost:44374/Home/Login - - - 200 - text/html;+charset=utf-8 1497.7948ms"
+-[Information]-1-21:41:35 = "Request starting HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - -"
+-[Information]-2-21:41:35 = "Request finished HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - - - 200 11984 application/javascript;+charset=utf-8 9.0663ms"
+-[Information]-1-21:41:41 = "Request starting HTTP/2 POST https://localhost:44374/Home/Login application/x-www-form-urlencoded 211"
+-[Information]-0-21:41:43 = "Executing endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+-[Information]-102-21:41:43 = "Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AcerPro.Models.LoginData) on controller AcerPro.Controllers.HomeController (AcerPro)."
+-[Information]-101-21:41:43 = "Executing action method AcerPro.Controllers.HomeController.Login (AcerPro) - Validation state: Valid"
+-[Information]-20101-21:41:43 = "Executed DbCommand (107ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[EMail], [d].[Password], [d].[UserName]
+FROM [DbUsers] AS [d]"
+1-[Information]-20101-21:41:43 = "Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-103-21:41:43 = "Executed action method AcerPro.Controllers.HomeController.Login (AcerPro), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 814.0624ms."
+1-[Information]-1-21:41:43 = "Executing RedirectResult, redirecting to /Home/MainPage."
+1-[Information]-105-21:41:43 = "Executed action AcerPro.Controllers.HomeController.Login (AcerPro) in 849.2532ms"
+1-[Information]-1-21:41:43 = "Executed endpoint 'AcerPro.Controllers.HomeController.Login (AcerPro)'"
+1-[Information]-2-21:41:43 = "Request finished HTTP/2 POST https://localhost:44374/Home/Login application/x-www-form-urlencoded 211 - 302 0 - 2750.5967ms"
+1-[Information]-1-21:41:43 = "Request starting HTTP/2 GET https://localhost:44374/Home/MainPage - -"
+1-[Information]-0-21:41:44 = "Executing endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+1-[Information]-102-21:41:44 = "Route matched with {action = "MainPage", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MainPage() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-101-21:41:44 = "Executing action method AcerPro.Controllers.HomeController.MainPage (AcerPro) - Validation state: Valid"
+1-[Information]-103-21:41:44 = "Executed action method AcerPro.Controllers.HomeController.MainPage (AcerPro), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3207ms."
+1-[Information]-1-21:41:44 = "Executing ViewResult, running view MainPage."
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-20101-21:41:44 = "Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Id], [d].[AppName], [d].[AppUrl], [d].[Interval], [d].[UserId]
+FROM [DbApplications] AS [d]"
+1-[Information]-4-21:41:44 = "Executed ViewResult - view MainPage executed in 111.1506ms."
+1-[Information]-105-21:41:44 = "Executed action AcerPro.Controllers.HomeController.MainPage (AcerPro) in 129.8759ms"
+1-[Information]-1-21:41:44 = "Executed endpoint 'AcerPro.Controllers.HomeController.MainPage (AcerPro)'"
+1-[Information]-2-21:41:44 = "Request finished HTTP/2 GET https://localhost:44374/Home/MainPage - - - 200 - text/html;+charset=utf-8 974.9087ms"
+1-[Information]-1-21:41:44 = "Request starting HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - -"
+1-[Information]-2-21:41:44 = "Request finished HTTP/2 GET https://localhost:44374/_framework/aspnetcore-browser-refresh.js - - - 200 11984 application/javascript;+charset=utf-8 4.0366ms"
+1-[Information]-1-21:41:45 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:41:47 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:41:47 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-101-21:41:47 = "Executing action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) - Validation state: Valid"
+1-[Information]-103-21:41:47 = "Executed action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 55.0089ms."
+1-[Information]-1-21:41:47 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:41:47 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 73.4541ms"
+1-[Information]-1-21:41:47 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-1-21:41:47 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:41:48 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 1612.1061ms"
+1-[Information]-0-21:41:48 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:41:48 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-101-21:41:48 = "Executing action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) - Validation state: Valid"
+1-[Information]-103-21:41:48 = "Executed action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.6417ms."
+1-[Information]-1-21:41:48 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:41:48 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 15.3831ms"
+1-[Information]-1-21:41:48 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-1-21:41:48 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-2-21:41:48 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 712.7939ms"
+1-[Information]-0-21:41:48 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:41:48 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-101-21:41:48 = "Executing action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) - Validation state: Valid"
+1-[Information]-103-21:41:48 = "Executed action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4923ms."
+1-[Information]-1-21:41:48 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:41:48 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 16.4322ms"
+1-[Information]-1-21:41:48 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-1-21:41:48 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-2-21:41:48 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 738.7626ms"
+1-[Information]-0-21:41:49 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:41:49 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-101-21:41:49 = "Executing action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) - Validation state: Valid"
+1-[Information]-103-21:41:49 = "Executed action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1017ms."
+1-[Information]-1-21:41:49 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:41:49 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 14.8493ms"
+1-[Information]-1-21:41:49 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:41:49 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 500.7172ms"
+1-[Information]-1-21:41:49 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:41:50 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:41:50 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-101-21:41:50 = "Executing action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) - Validation state: Valid"
+1-[Information]-103-21:41:50 = "Executed action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.8257ms."
+1-[Information]-1-21:41:50 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:41:50 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 16.0604ms"
+1-[Information]-1-21:41:50 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:41:50 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 816.0294ms"
+1-[Information]-1-21:41:50 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:41:51 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:41:51 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-101-21:41:51 = "Executing action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) - Validation state: Valid"
+1-[Information]-103-21:41:51 = "Executed action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.3482ms."
+1-[Information]-1-21:41:51 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:41:51 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 14.7308ms"
+1-[Information]-1-21:41:51 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:41:51 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 889.2749ms"
+1-[Information]-1-21:41:51 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:41:52 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:41:52 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-101-21:41:52 = "Executing action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) - Validation state: Valid"
+1-[Information]-103-21:41:52 = "Executed action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4096ms."
+1-[Information]-1-21:41:52 = "Executing ObjectResult, writing value of type 'System.String'."
+1-[Information]-105-21:41:52 = "Executed action AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) in 16.988ms"
+1-[Information]-1-21:41:52 = "Executed endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-2-21:41:52 = "Request finished HTTP/2 GET https://localhost:44374/home/getstates - - - 200 - text/plain;+charset=utf-8 971.1386ms"
+1-[Information]-1-21:41:52 = "Request starting HTTP/2 GET https://localhost:44374/home/getstates - -"
+1-[Information]-0-21:42:13 = "Executing endpoint 'AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro)'"
+1-[Information]-102-21:42:13 = "Route matched with {action = "GetAppState", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAppStateAsync() on controller AcerPro.Controllers.HomeController (AcerPro)."
+1-[Information]-1-21:42:13 = "Request starting HTTP/2 GET https://localhost:44374/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -"
+1-[Information]-101-21:42:13 = "Executing action method AcerPro.Controllers.HomeController.GetAppStateAsync (AcerPro) - Validation state: Valid"

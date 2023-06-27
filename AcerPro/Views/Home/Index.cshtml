@@ -1,0 +1,55 @@
+﻿@using Microsoft.AspNetCore.Mvc.Routing
+@model LoginData
+@{
+  ViewData["Title"] = "Login Page";
+  ViewData["Auth"] = "No";  
+}
+<h1>AcerPro Target Applications Assignment</h1>
+<div class="login-form">
+  <form method="post" asp-action="Login">
+    <div class="alert-danger" role="alert" asp-validation-summary="All"></div>
+    <div class="form-group">
+      <label for="username" class="form-label">Kullanıcı Adı</label>
+      <input type="text" id="username" asp-for="@Model.UserName" class="form-control"/>
+    </div>
+    <div class="form-group">
+      <label for="password">Şifre</label>
+      <input type="password" id="password" asp-for="@Model.Password" class="form-control"/>
+    </div>
+    <br/>
+    <input type="submit" value="GİRİŞ YAP" class="btn btn-primary" style="width: 100%;"></input>
+  </form>
+  <br/>
+  <div>
+    <button style="width: 100%;" class="btn btn-primary" onclick="window.location.href = 'https://localhost:44374/Home/AddUser';">YENİ KULLANICI EKLE</button>
+  </div>
+  <script src="../lib/jquery/dist/jquery.js"></script>
+  <script src="../lib/sweetalert.min.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded',()=>
+    {
+      let $inp = $("#username");
+      $inp.focus();
+      
+    @{
+      if(Model is { IsSuccess: false})        
+      {
+        <text>
+          swal(
+                {
+                  title:"Giriş Başarısız.",
+                  text:"Kullanıcı Adı/Parola Kombinasyonu Tutarsız.",
+                  icon:"error",
+                  closeOnClickOutside:false,
+                  button:{
+                    text:"TAMAM",
+                    value:true,
+                    visible:true
+                  }
+                });
+        </text>
+      }
+      }
+    });
+  </script>
+</div>

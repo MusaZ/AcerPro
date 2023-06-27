@@ -1,0 +1,16 @@
+[Information]-20101-22:04:08 : Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+[Information]-20101-22:04:09 : Executed DbCommand (485ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[Information]-20101-22:04:09 : Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+[Information]-20101-22:04:09 : Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[Information]-20101-22:04:09 : Executed DbCommand (118ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+[Information]-20402-22:04:09 : Applying migration '20230605190252_IsUniqueUserName'.
+[Information]-20101-22:04:09 : Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230605190252_IsUniqueUserName', N'7.0.5');
